@@ -6,12 +6,18 @@
 
 Linear Regression:
 
+
 ![Statistical_Summary.png](Statistical_Summary.png)
+
 
 
 Statistical summary of the linear regression model with the  p-values and r-squared value:
 
+
+
 ![Linear_Regression.png](Linear_Regression.png)
+
+
 
 ##### Interpretation:
 
