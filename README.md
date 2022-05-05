@@ -6,13 +6,13 @@
 
 Linear Regression:
 
-![Linear_Regression.png](/Users/anabisker/Desktop/Data_Analytics_Bootcamp/15-R/MechaCar_Statistical_Analysis/Linear_Regression.png)
+![Linear_Regression.png](Linear_Regression.png)
 
 
 
 Statistical summary of the linear regression model with the  p-values and r-squared value:
 
-![Statistical_Summary.png](/Users/anabisker/Desktop/Data_Analytics_Bootcamp/15-R/MechaCar_Statistical_Analysis/Statistical_Summary.png)
+![Statistical_Summary.png](Statistical_Summary.png)
 
 ##### Interpretation:
 
@@ -46,7 +46,7 @@ Statistical summary of the linear regression model with the  p-values and r-squa
 
   - In total, the manufacturing lots do meet the design specifications.The variance of PSI of the suspension coils of the entire dataset (all vehicles) is 62.29356, as can be seen in the screenshot of the data frame below:
 
-    ![Total_PSI.png](/Users/anabisker/Desktop/Data_Analytics_Bootcamp/15-R/MechaCar_Statistical_Analysis/Total_PSI.png)
+    ![Total_PSI.png](Total_PSI.png)
 
     
 
@@ -58,7 +58,7 @@ Statistical summary of the linear regression model with the  p-values and r-squa
 
     We can see in this screenshot that in Lot1 and Lot2 the variance of PSI was indeed lower than the specifications, while in Lot3 the variance exceeded the maximum variance specifications of 100 pounds per inch by a lot, showing a clear inconsistency in production amongst the various lots:
 
-![PSI_by_Lot](/Users/anabisker/Desktop/Data_Analytics_Bootcamp/15-R/MechaCar_Statistical_Analysis/PSI_by_Lot.png)
+![PSI_by_Lot](PSI_by_Lot.png)
 
 
 
@@ -68,7 +68,7 @@ Statistical summary of the linear regression model with the  p-values and r-squa
 
 - Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
 
-  ![T_test.png](/Users/anabisker/Desktop/Data_Analytics_Bootcamp/15-R/MechaCar_Statistical_Analysis/T_test.png)
+  ![T_test.png](T_test.png)
 
   On the first t-test, with the statistics of PSI across all manufacturing lots in the dataset being tested against the presumed population mean of 1,500 pounds per square inch, our p-value falls on the cusp, only slightly above the significance level, assuming our significance level cutoff as the default of 0.05.
 
@@ -80,7 +80,7 @@ Statistical summary of the linear regression model with the  p-values and r-squa
 
 - Determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
 
-  ![Subset_Ttest.png](/Users/anabisker/Desktop/Data_Analytics_Bootcamp/15-R/MechaCar_Statistical_Analysis/Subset_Ttest.png)
+  ![Subset_Ttest.png](Subset_Ttest.png)
 
   When seen separately, the T-tests of each subset of the data look different than when tested the mean PSI of the dataset as a whole, still assuming our cutoff for significance level as the default 0.05 percent. 
 
